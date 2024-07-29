@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(238, 227, 70);
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(238, 227, 70) !important;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(238, 227, 70) !important;
+  font-weight: 700;
+}
+
+#name{
+  text-shadow: -2px 2px 0 #000,
+  2px 2px 0 #000,
+  2px -2px 0 #000,
+  -2px -2px 0 #000;
+}
+.text-highlight {
+  color:#ebe6e0 ; 
+ 
+}
+
+
+h1.display-4, h2 {
+  font-weight: bold;
+  font-size:80px;
+  margin-bottom: 20px;
+}
+
+h1.display-4{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+p.lead {
+  font-size: 600;
+  margin-bottom: 30px;
+}
+
+.btn-lg {
+  border-radius: 25px;
+  padding: 10px 30px;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #ebe6e0;
+  border: none;
+  color:black;
+}
+
+.btn-primary:hover {
+  background-color:rgb(238, 227, 70);
+  color:white;
+  font-weight: 500;
+
+}
+
+.btn-secondary {
+  background-color: #ebe6e0;
+  border: none;
+  color:black;
+}
+
+.btn-secondary:hover {
+  background-color:rgb(238, 227, 70);
+  color:white;
+  font-weight: 500;
+}
+
+.btn-info {
+  background-color: #ebe6e0;
+  border: none;
+  color:black;
+}
+
+.btn-info:hover {
+  background-color:rgb(238, 227, 70);
+  color:white;
+  font-weight: 500;
+}
+
+#about {
+  background-color: #ebe6e0;
+  padding: 60px 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  
+}
+
+#about h2 {
+  color: rgb(238, 227, 70);
+  font-size:50px;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+ 
+}
+
+#about img{
+  border-radius: 0;
+  box-shadow: 60px -16px rgb(238, 227, 70);
+  
+}
+
+#projects {
+  background-color: rgb(238, 227, 70);
+}
+
+#projects h2 {
+  color: white;
+  font-size:50px;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+#coffee{
+  color:rgb(238, 227, 70);
+  font-size:50px;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+
+#submit{
+  background-color:rgb(238, 227, 70) ;
+
+}
+#submit:hover {
+  background-color:white;
+  color:black;
+  font-weight: 500;
+}
